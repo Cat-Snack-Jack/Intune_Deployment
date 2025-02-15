@@ -12,7 +12,7 @@
 
 Clear-Host
 # File path to AWA 32bit location
-$pathone = Test-path "${env:ProgramFiles(x86)}\Arctic Wolf Networks\Agent\Win32ui.exe"
+$pathone = Test-path "${env:ProgramFiles(x86)}\Arctic Wolf Networks\Agent\manifest.json"
 
 # Check if service "Sysmon" is running
 $ServiceName64 = "Sysmon64"
